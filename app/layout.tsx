@@ -13,6 +13,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const test = "test";
   return (
     <html lang="en">
       <body className={outfit.className}>
